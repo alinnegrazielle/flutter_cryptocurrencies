@@ -9,10 +9,10 @@ class CurrenciesScreen extends StatelessWidget {
       ),
       body: Container(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Expanded(
-              flex: 1,
+              // flex: 1,
               child: Center(
                 child: FlatButton(
                   color: Colors.blue,
@@ -28,7 +28,7 @@ class CurrenciesScreen extends StatelessWidget {
               ),
             ),
             Expanded(
-              flex: 1,
+              // flex: 1,
               child: Center(
                 child: FlatButton(
                   color: Colors.blue,
@@ -44,7 +44,7 @@ class CurrenciesScreen extends StatelessWidget {
               ),
             ),
             Expanded(
-              flex: 1,
+              // flex: 1,
               child: Center(
                 child: FlatButton(
                   color: Colors.blue,
@@ -56,6 +56,16 @@ class CurrenciesScreen extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {},
+                ),
+              ),
+            ),
+            RaisedButton(
+              onPressed: () {},
+              color: Colors.blue,
+              child: Text(
+                'CAD',
+                style: TextStyle(
+                  color: Colors.white,
                 ),
               ),
             ),
